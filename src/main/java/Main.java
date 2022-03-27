@@ -7,7 +7,6 @@ public class Main {
         long expected = 30;
 
         long actual = service.calculate(amount, registered);
-
         boolean passed = expected == actual;
 
         System.out.println(passed);
